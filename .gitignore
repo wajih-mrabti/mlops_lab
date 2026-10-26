@@ -1,0 +1,25 @@
+.next/
+node_modules/
+*.tsbuildinfo
+
+# Environment files
+.env
+.env.*
+!.env.example
+!backend/.env.example
+
+# Python virtual environments
+.venv/
+venv/
+
+# Python bytecode / caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+
+# Local backend storage
+backend/storage/
